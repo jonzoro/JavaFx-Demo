@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXButton fx:id="saveBtn" alignment="CENTER" buttonType="RAISED" layoutX="317.0" layoutY="539.0" onAction="#saveAction" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: black;" text="Click Me" textAlignment="CENTER" textFill="WHITE" />
+      <JFXTextArea fx:id="contentArea" focusColor="#071f68" layoutX="28.0" layoutY="35.0" prefHeight="476.0" prefWidth="744.0" promptText="Input Something here..." unFocusColor="BLACK" />
+      <JFXButton fx:id="cancelBtn" alignment="CENTER" buttonType="RAISED" layoutX="407.0" layoutY="539.0" prefHeight="31.0" prefWidth="76.0" style="-fx-background-color: gray;" text="Cancel" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>
